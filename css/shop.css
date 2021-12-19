@@ -74,22 +74,137 @@
   }
 
 #navbar {
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: black;
 }
 
 #search {
-    background-color: black;
-    color: black;
-    padding-left: 20px;
-    height: 30px;
-    position: static;
-    margin-top: 5px;
-    border-radius: 20px;
-  }
-  
-  #btnLogin {
-    color: white;
-    margin-top: 15px;
-  }
+  background-color: black;
+  color: black;
+  padding-left: 20px;
+  height: 30px;
+  position: static;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+
+#btnLogin {
+  color: white;
+  margin-top: 15px;
+}
+
+input,
+textarea {
+    background-color: #ffffff;
+    padding: 8px 15px 8px 15px;
+    width: 100%;
+    border-radius: 5px !important;
+    box-sizing: border-box;
+    border: 1px solid #c4c4c4;
+    font-size: 15px !important;
+    color: #000 !important;
+    font-weight: 300
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #9FA8DA;
+    outline-width: 0;
+    font-weight: 400
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+.pay {
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin: 10px 20px 10px 0px;
+    cursor: pointer;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.2)
+}
+
+.gray {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+    color: #E0E0E0
+}
+
+.gray .pay {
+    box-shadow: none
+}
+
+#tax {
+    border-top: 1px lightgray solid;
+    margin-top: 10px;
+    padding-top: 10px
+}
+
+.btn-blue {
+    border: none;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #fff;
+    padding: 8px 15px;
+    margin: 20px 0px;
+    cursor: pointer
+}
+
+.btn-blue:hover {
+    background-color: #0c8a01;
+    color: #fff
+}
+
+#header {
+  margin-top: 50px;
+}
+
+#list {
+  margin-top: 5px;
+}
+
+#list1 {
+  width: 200px;
+}
+#list2 {
+  width: 200px;
+}
+#list3 {
+  width: 200px;
+}
+#list4 {
+  width: 200px;
+}
+
+#sortby {
+  width: 200px;
+}
+
+
+#item {
+  margin-top: 100px;
+}
+
+
+#footer {
+  margin-top: 50px;
+  text-align: left;
+  color: black;
+}
+
+#contactUs {
+  color: white;
+}

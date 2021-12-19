@@ -40,7 +40,7 @@
           }
   
           .offcanvas-header {
-            display: none;
+            display: node;
           }
   
           .offcanvas {
@@ -74,9 +74,9 @@
   }
 
 #navbar {
-  margin-left: 20px;
-  margin-right: 20px;
-  background-color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;
 }
 
 #search {
@@ -92,6 +92,61 @@
 #btnLogin {
   color: white;
   margin-top: 15px;
+}
+
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #fff;
+    background-repeat: no-repeat
+}
+
+.plus-minus {
+    position: relative
+}
+
+.plus {
+    position: absolute;
+    top: -4px;
+    left: 2px;
+    cursor: pointer
+}
+
+.minus {
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    cursor: pointer
+}
+
+.vsm-text:hover {
+    color: #FF5252
+}
+
+.book,
+.book-img {
+    width: 120px;
+    height: 180px;
+    border-radius: 5px
+}
+
+.book {
+    margin: 20px 15px 5px 15px
+}
+
+.border-top {
+    border-top: 1px solid #EEEEEE !important;
+    margin-top: 20px;
+    padding-top: 15px
+}
+
+.card {
+    margin: 40px 0px;
+    padding: 40px 50px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.2)
 }
 
 input,
@@ -168,25 +223,44 @@ button:focus {
     color: #fff
 }
 
-#header {
-  margin-top: 50px;
+
+
+#checkout {
+    float: left
 }
 
-#maps {
-  margin-top: 50px;
-  width: 100%;
-  height: 500px;
-  background: rgb(0, 0, 0);
+#check-amt {
+    float: right
 }
 
-#mapsdesc {
-  margin-top: 50px;
+@media screen and (max-width: 768px) {
+
+    .book,
+    .book-img {
+        width: 100px;
+        height: 150px
+    }
+
+    .card {
+        padding-left: 15px;
+        padding-right: 15px
+    }
+
+    .mob-text {
+        font-size: 13px
+    }
+
+    .pad-left {
+        padding-left: 20px
+    }
 }
+
+
 
 #footer {
-  margin-top: 50px;
-  text-align: left;
-  color: black;
+    margin-top: 50px;
+    text-align: left;
+    color: black;
 }
 
 #contactUs {
